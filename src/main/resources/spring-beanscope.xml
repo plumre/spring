@@ -17,7 +17,7 @@
     <!--<bean id="nameAware" class="com.kevin.spring.aware.NameAware">  </bean>-->
     <context:property-placeholder location="classpath:jdbc.properties"/>
 
-    <context:component-scan base-package="com.kevin.spring.bean">
+    <context:component-scan base-package="com.kevin.spring">
 
     </context:component-scan>
 
